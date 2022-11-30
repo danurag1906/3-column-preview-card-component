@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body class="flex w-screen h-screen justify-center items-center flex-col">
+    <div
+      class="main min-[500px]:flex min-[500px]:flex-row text-white min-[500px]:w-1/2 min-[500px]:h-[23rem] min-[500px]:rounded-md min-[500px]:overflow-hidden 
+      min-[200px]:flex-col min-[200px]:h-full min-[200px]:overflow-scroll min-[200px]:my-4 min-[200px]:mx-2"
+    >
+      <div class="bg-[#e38826] p-4">
+        <img
+          class="p-2 w-16 h-12"
+          src="./images/icon-sedans.svg"
+          alt="sedan logo"
+        />
+        <h1 class="font-BigShoulder text-3xl p-2 pt-4 uppercase">Sedans</h1>
+        <p class="font-lexend text-xs p-2 opacity-70">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button
+          class="border-0 rounded-3xl text-xs bg-white text-[#e38826] px-[20px] py-[10px] ml-2 lr-2 mt-20 mb-2 hover:bg-[#e38826] hover:text-white hover:border-[2px]"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <div class="bg-[#006970] p-4">
+        <img
+          class="p-2 w-16 h-12"
+          src="./images/icon-suvs.svg"
+          alt="SUV logo"
+        />
+        <h1 class="font-BigShoulder text-3xl p-2 pt-4 uppercase">SUVs</h1>
+        <p class="font-lexend text-xs p-2 opacity-70">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button
+          class="border-0 rounded-3xl text-xs bg-white text-[#006970] px-[20px] py-[10px] ml-2 lr-2 mt-20 mb-2 hover:bg-[#006970] hover:text-white hover:border-[2px]"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <div class="bg-[#004241] p-4">
+        <img
+          class="p-2 w-16 h-12"
+          src="./images/icon-luxury.svg"
+          alt="Luxury logo"
+        />
+        <h1 class="font-BigShoulder text-3xl p-2 pt-4 uppercase">Luxury</h1>
+        <p class="font-lexend text-xs p-2 opacity-70">
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button
+          class="font-lexend border-0 rounded-3xl text-xs bg-white text-[#004241] px-[20px] py-[10px] ml-2 lr-2 mt-20 mb-2 hover:bg-[#004241] hover:text-white hover:border-[2px]"
+        >
+          Learn More
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution mt-4">
+      Challenge by
+      <a
+        class="underline"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="underline" href="https://github.com/danurag1906" target="_blank"
+        >Anurag</a
+      >.
+    </div>
+  </body>
+</html>

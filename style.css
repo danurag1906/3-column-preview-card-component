@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    body{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+        
+    }
+    /* p{
+        font-family: 'Lexend Deca', sans-serif;
+    } */
+    
+}
